@@ -17,4 +17,19 @@ public class HomeController {
     public String jobDetail() {
         return "job-detail";
     }
+
+    @GetMapping("/search-job")
+    public String searchJob() {
+        return "search-job";
+    }
+
+    @GetMapping("/blog")
+    public String blog() {
+        return "blog";
+    }
+
+    @GetMapping("/about")
+    public String about() {
+        return "about";
+    }
 }
